@@ -1,0 +1,13 @@
+package j_10_car_rental_system;
+
+import java.util.Date;
+
+public class PaymentDetails {
+
+    int paymentId;
+    int amountPaid;
+    Date dateOfPayment;
+    boolean isRefundable;
+    PaymentMode paymentMode;
+
+}
