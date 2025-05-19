@@ -26,14 +26,14 @@ public class MovieController {
         cityVsMovies.put(city, movies);
     }
 
-    Movie getMovieByName(Movie movie) {
+    Movie getMovieByName(String movieName) {
 
-        for (Movie m : allMovies) {
-            if (m.getMovieName().equals(movie.getMovieName())) {
-                return m;
+        for (Movie movie : allMovies) {
+            if((movie.getMovieName()).equals(movieName)) {
+                return movie;
             }
-        }
 
+        }
         return null;
     }
 
