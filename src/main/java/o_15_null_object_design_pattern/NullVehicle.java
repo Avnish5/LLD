@@ -1,4 +1,4 @@
-package o_null_object_design_pattern;
+package o_15_null_object_design_pattern;
 
 public class NullVehicle implements Vehicle{
     @Override
