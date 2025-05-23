@@ -1,0 +1,250 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36 Edg/136.0.0.0" version="27.0.6">
+  <diagram name="Page-1" id="fO3vpbsxgfKqeiuuHJud">
+    <mxGraphModel dx="2194" dy="1909" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-1" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="340" y="150" width="180" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-3" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;String id;&lt;/font&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;String description;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;double amount;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;User paidBy;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;SplitType type;&lt;/font&gt;&lt;/div&gt;&lt;div&gt;&lt;font size=&quot;3&quot;&gt;List&amp;lt;Split&amp;gt; splitDetails;&lt;/font&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="330" y="160" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-4" value="&lt;pre lang=&quot;java&quot; class=&quot;code highlight&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span class=&quot;hljs-keyword&quot;&gt;enum&lt;/span&gt;&lt;span class=&quot;&quot;&gt; &lt;/span&gt;&lt;span class=&quot;hljs-title.class&quot;&gt;ExpenseSplitType&lt;/span&gt;&lt;span class=&quot;&quot;&gt; {&lt;/span&gt;&lt;br/&gt;&lt;span class=&quot;&quot;&gt;    EQUAL,&lt;/span&gt;&lt;br/&gt;&lt;span class=&quot;&quot;&gt;    UNEQUAL,&lt;/span&gt;&lt;br/&gt;&lt;span class=&quot;&quot;&gt;    PERCENTAGE;&lt;/span&gt;&lt;br/&gt;&lt;span class=&quot;&quot;&gt;}&lt;/span&gt;&lt;/font&gt;&lt;br/&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="610" y="150" width="175" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-5" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;1. Expense&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="385" y="120" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-6" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="570" y="10" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-7" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;User user;&lt;/span&gt;&lt;div&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;double amount;&lt;/span&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="570" y="10" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-8" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;2. Split&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="-20" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-12" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="m8-3M8mDkgSh2hDPtfVC-7">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="520" y="160" as="sourcePoint" />
+            <mxPoint x="450" y="300" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-13" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="20" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-14" value="&lt;pre lang=&quot;java&quot; class=&quot;code highlight&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span class=&quot;&quot;&gt;String userId;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;&quot;&gt;    String userName;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;&quot;&gt;    UserExpenseBalanceSheet sheet;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="5" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-15" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;3. User&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-355" y="-25" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-17" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=1;entryY=0.25;entryDx=0;entryDy=0;exitX=0.045;exitY=-0.005;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="m8-3M8mDkgSh2hDPtfVC-3" target="m8-3M8mDkgSh2hDPtfVC-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="250" y="360" as="sourcePoint" />
+            <mxPoint x="300" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-18" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-19" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;validateRequest();&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="540" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-20" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;4. Expense Split&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="355" y="500" width="110" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-21" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="160" y="710" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-22" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;equal-split&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="120" y="700" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-23" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="350" y="710" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-24" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;unequal-split&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="320" y="700" width="190" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-25" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="540" y="710" width="110" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-26" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;percentage-split&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="520" y="700" width="150" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-30" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="260" y="700" as="sourcePoint" />
+            <mxPoint x="330" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-31" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=0;exitDx=0;exitDy=0;" edge="1" parent="1" source="m8-3M8mDkgSh2hDPtfVC-24">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="240" y="590" as="sourcePoint" />
+            <mxPoint x="410" y="620" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-32" value="" style="shape=flexArrow;endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="570" y="690" as="sourcePoint" />
+            <mxPoint x="490" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-33" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="420" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-34" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;createExpense();&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-40" y="420" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-35" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;5. ExpenseController&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-17.5" y="380" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-37" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.25;entryDx=0;entryDy=0;exitX=0.91;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="m8-3M8mDkgSh2hDPtfVC-34" target="m8-3M8mDkgSh2hDPtfVC-19">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="70" y="520" as="sourcePoint" />
+            <mxPoint x="120" y="470" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-40" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="20" y="670" width="110" height="120" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-41" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;6. Split Factory&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="7.5" y="640" width="135" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-42" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="80" y="500" as="sourcePoint" />
+            <mxPoint x="80" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-43" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-425" y="235" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-44" value="&lt;pre lang=&quot;java&quot; class=&quot;code highlight&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;List&amp;lt;User&amp;gt; list;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre lang=&quot;java&quot; class=&quot;code highlight&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;// All the CRUD Operations&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-440" y="220" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-45" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;7. UserController&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-380" y="200" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-48" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.48;exitY=0.333;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="m8-3M8mDkgSh2hDPtfVC-45">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-240" y="390" as="sourcePoint" />
+            <mxPoint x="-320" y="110" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-51" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-805" y="385" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-52" value="&lt;pre lang=&quot;java&quot; class=&quot;code highlight&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;UserController obj;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre lang=&quot;java&quot; class=&quot;code highlight&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;GroupController obj;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-820" y="370" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-53" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;8. SplitWise&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-760" y="350" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-54" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;exitX=1;exitY=0.167;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="m8-3M8mDkgSh2hDPtfVC-51">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-650" y="350" as="sourcePoint" />
+            <mxPoint x="-420" y="280" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-550" y="330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-55" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-340" y="540" width="250" height="170" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-56" value="&lt;pre lang=&quot;java&quot; class=&quot;code highlight&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span class=&quot;&quot;&gt;String groupId;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;&quot;&gt;    String groupName;&lt;/span&gt;&lt;br&gt;&lt;span class=&quot;&quot;&gt;    List&amp;lt;User&amp;gt; groupMembers;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class=&quot;&quot;&gt;    List&amp;lt;Expense&amp;gt; expenseList;&lt;/span&gt;&lt;br&gt;&lt;br&gt;&lt;span class=&quot;&quot;&gt;    ExpenseController expenseController;&lt;/span&gt;&lt;/font&gt;&lt;br&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-320" y="560" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-57" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;9. Group&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-255" y="510" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-58" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="1" target="m8-3M8mDkgSh2hDPtfVC-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-220" y="510" as="sourcePoint" />
+            <mxPoint x="-100" y="530" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-220" y="450" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-61" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-340" y="570" as="sourcePoint" />
+            <mxPoint x="-420" y="40" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-820" y="210" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-64" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0.05;entryY=0.727;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0.716;exitY=-0.018;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="m8-3M8mDkgSh2hDPtfVC-55" target="m8-3M8mDkgSh2hDPtfVC-3">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="430" as="sourcePoint" />
+            <mxPoint x="120" y="430" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-160" y="240" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-65" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-462.5" y="400" width="220" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-66" value="&lt;pre lang=&quot;java&quot; class=&quot;code highlight&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;List&amp;lt;Group&amp;gt; list;&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;&lt;pre lang=&quot;java&quot; class=&quot;code highlight&quot;&gt;&lt;font face=&quot;Helvetica&quot;&gt;&lt;span style=&quot;font-size: 14px;&quot;&gt;// All the CRUD Operations&lt;/span&gt;&lt;/font&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-470" y="385" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-67" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;10. GroupController&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-417.5" y="365" width="125" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-69" value="" style="endArrow=classic;html=1;rounded=0;exitX=1.013;exitY=0.636;exitDx=0;exitDy=0;exitPerimeter=0;" edge="1" parent="1" source="m8-3M8mDkgSh2hDPtfVC-52">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-580" y="440" as="sourcePoint" />
+            <mxPoint x="-460" y="440" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-70" value="" style="endArrow=classic;html=1;rounded=0;" edge="1" parent="1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-320" y="490" as="sourcePoint" />
+            <mxPoint x="-320" y="542" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-71" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-180" width="180" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-72" value="&lt;pre lang=&quot;java&quot; class=&quot;code highlight&quot;&gt;&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 14px;&quot;&gt;&lt;span class=&quot;hljs-type&quot;&gt;double&lt;/span&gt;&lt;span class=&quot;&quot;&gt; amountOwe;&lt;/span&gt;&lt;br/&gt;&lt;span class=&quot;&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;hljs-type&quot;&gt;double&lt;/span&gt;&lt;span class=&quot;&quot;&gt; amountGetBack;&lt;/span&gt;&lt;/font&gt;&lt;br/&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="430" y="-180" width="200" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-73" value="&lt;span style=&quot;font-size: 14px;&quot;&gt;12. Balance&lt;/span&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="480" y="-210" width="80" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-83" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="m8-3M8mDkgSh2hDPtfVC-74" target="m8-3M8mDkgSh2hDPtfVC-72">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-74" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="-220" width="250" height="200" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-75" value="&lt;pre lang=&quot;java&quot; class=&quot;code highlight&quot;&gt;&lt;font style=&quot;font-size: 14px;&quot; face=&quot;Helvetica&quot;&gt;&lt;span class=&quot;&quot;&gt;Map&amp;lt;String, Balance&amp;gt; userVsBalance;&lt;/span&gt;&lt;br/&gt;&lt;span class=&quot;&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;hljs-type&quot;&gt;double&lt;/span&gt;&lt;span class=&quot;&quot;&gt; totalYourExpense;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span class=&quot;&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;hljs-type&quot;&gt;double&lt;/span&gt;&lt;span class=&quot;&quot;&gt; totalPayment;&lt;/span&gt;&lt;br/&gt;&lt;br/&gt;&lt;span class=&quot;&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;hljs-type&quot;&gt;double&lt;/span&gt;&lt;span class=&quot;&quot;&gt; totalYouOwe;&lt;/span&gt;&lt;br/&gt;&lt;span class=&quot;&quot;&gt;    &lt;/span&gt;&lt;span class=&quot;hljs-type&quot;&gt;double&lt;/span&gt;&lt;span class=&quot;&quot;&gt; totalYouGetBack;&lt;/span&gt;&lt;/font&gt;&lt;br/&gt;&lt;/pre&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="-210" width="200" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-76" value="&lt;font face=&quot;Helvetica&quot; style=&quot;font-size: 14px;&quot;&gt;13.&amp;nbsp;&lt;code&gt;UserExpenseBalanceSheet&lt;/code&gt;&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="142.5" y="-260" width="205" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-84" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=-0.003;entryY=0.333;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="m8-3M8mDkgSh2hDPtfVC-80" target="m8-3M8mDkgSh2hDPtfVC-74">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-80" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;//Buisness Logic&amp;nbsp;&amp;nbsp;&lt;/font&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-175" y="-210" width="225" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-81" value="&lt;font style=&quot;font-size: 14px;&quot;&gt;14. BalanceSheetController&lt;/font&gt;" style="text;html=1;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="-147.5" y="-250" width="187.5" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="m8-3M8mDkgSh2hDPtfVC-87" value="" style="edgeStyle=segmentEdgeStyle;endArrow=classic;html=1;curved=0;rounded=0;endSize=8;startSize=8;entryX=0.602;entryY=1.019;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="m8-3M8mDkgSh2hDPtfVC-35" target="m8-3M8mDkgSh2hDPtfVC-80">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="70" as="sourcePoint" />
+            <mxPoint x="170" y="20" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
