@@ -2,16 +2,16 @@ package u_21_builder_design_pattern;
 
 public class Client {
     public static void main(String[] args) {
-        Director directorObj1 = new Director(new EngineeringStudentBuilder());
-        Director directorObj2 = new Director(new MBAStudentBuilder());
+        // Gaming Computer
+        ComputerBuilder gamingBuilder = new GamingComputerBuilder();
+        ComputerDirector director1 = new ComputerDirector(gamingBuilder);
+        Computer gamingPC = director1.constructComputer();
+        System.out.println("Gaming PC: " + gamingPC);
 
-        Student engineerStudent = directorObj1.createStudent();
-        Student mbaStudent =directorObj2.createStudent();
-
-        System.out.println(engineerStudent.toString());
-        System.out.println(mbaStudent.toString());
-
+        // Normal Computer
+        ComputerBuilder normalBuilder = new NormalComputerBuilder();
+        ComputerDirector director2 = new ComputerDirector(normalBuilder);
+        Computer normalPC = director2.constructComputer();
+        System.out.println("Normal PC: " + normalPC);
     }
-
-
 }
