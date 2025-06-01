@@ -1,4 +1,4 @@
-package w_23_facade_design_pattern.Inventory;
+package w_23_facade_design_pattern.Facade.Inventory;
 
 public class InventoryServiceImpl implements InventoryService{
     public boolean checkStock(String itemId, int quantity) {

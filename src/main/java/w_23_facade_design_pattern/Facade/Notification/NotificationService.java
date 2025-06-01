@@ -1,4 +1,4 @@
-package w_23_facade_design_pattern.Notification;
+package w_23_facade_design_pattern.Facade.Notification;
 
 // Subsystem: Notification
 public interface NotificationService {

@@ -1,6 +1,4 @@
-package w_23_facade_design_pattern;
-
-import w_23_facade_design_pattern.Facade.OrderFacade;
+package w_23_facade_design_pattern.Facade;
 
 public class OrderClient {
     public static void main(String[] args) {

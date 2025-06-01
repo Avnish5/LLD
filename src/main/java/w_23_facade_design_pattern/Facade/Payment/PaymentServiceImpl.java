@@ -1,4 +1,4 @@
-package w_23_facade_design_pattern.Payment;
+package w_23_facade_design_pattern.Facade.Payment;
 
 public class PaymentServiceImpl implements PaymentService{
     public void processPayment(String account, double amount) {
