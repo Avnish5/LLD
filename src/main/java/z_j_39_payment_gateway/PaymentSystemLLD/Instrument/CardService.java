@@ -23,7 +23,7 @@ public class CardService extends InstrumentService{
            userVsInstruments.put(cardInstrument.userID, userInstrumentList);
        }
 
-       userInstrumentList.add(cardInstrument.userID, cardInstrument);
+       userInstrumentList.add(cardInstrument);
 
        return mapCardInstrumentToInstrumentDO(cardInstrument);
 

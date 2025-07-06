@@ -19,7 +19,7 @@ public class BankService extends InstrumentService{
 
         if (userInstrumentList == null) {
             userInstrumentList = new ArrayList<>();
-            userInstrumentList.add(bankInstrument.userID, bankInstrument);
+            userVsInstruments.put(bankInstrument.userID, userInstrumentList);
         }
 
         userInstrumentList.add(bankInstrument);
